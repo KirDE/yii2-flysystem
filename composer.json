@@ -1,5 +1,5 @@
 {
-    "name": "creocoder/yii2-flysystem",
+    "name": "kirde/yii2-flysystem",
     "description": "The flysystem extension for the Yii framework",
     "keywords": [
         "yii2",
@@ -53,6 +53,11 @@
     "autoload": {
         "psr-4": {
             "creocoder\\flysystem\\": "src"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true
         }
     }
 }
